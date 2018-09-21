@@ -32,7 +32,7 @@ function GIFdisplay() {
     var sport = $(this).attr("data-sport");
     $(".GIFview").empty();
     console.log("in");
-    var gifURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=OjiHVTd9gKpBSMb0hSoNuLl4XHSd9iZK&limit=10";
+    var gifURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=OjiHVTd9gKpBSMb0hSoNuLl4XHSd9iZK&limit=10";
 
     $.ajax({
         url: gifURL,
